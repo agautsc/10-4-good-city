@@ -1,0 +1,49 @@
+---
+layout: post
+---
+
+{% include header.html %}
+
+<div class="span8">
+<h1>{{ page.title }}</h1>
+<h2>{{ page.date | date_to_string }}</h2>
+<p>
+{{ content }}
+</p>
+
+
+</div> 
+</div>
+</div>
+
+<div id="city" style="clear:left;"></div>
+ 
+
+<div class="details" id="details" name="details"> 
+	<div class="container"> 
+		<h1>OUR PROJECTS</h1> 
+			<div class="row"> 
+				<div class="span3"> 
+					<header class="number"> <span>!</span>
+					</header> 
+						<h2>Good Ideas</h2> 
+							<p>{{ site.categories }}</p>
+				</div>
+					
+					<div class="offset1 span3"> 
+						<header class="number"> <span>!</span> </header> 
+							<h2>Good Food</h2>
+								<p></p>
+					</div> 
+					
+				<div class="offset1 span3"> 
+					<header class="number"> <span>!</span> </header> 
+						<h2>Good Blog</h2> 
+							<p></p>
+				</div>
+
+
+</div> </div> </div> </div>
+
+
+{% include footer.html %}

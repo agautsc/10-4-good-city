@@ -1,0 +1,48 @@
+---
+layout: default
+title: 10-4 Good City
+---
+
+<div class="span8"> 
+<p id="tagline">WE'RE GONNA DO WHAT THEY SAY CAN'T BE DONE</p> 
+<p>We make communities better by partnering with companies, cities, and organizations to create
+technologies people need.</p> 
+</div> 
+
+</div>
+</div> 
+
+<div id="city" style="clear:left;"></div> 
+
+<div class="details" id="details" name="details"> 
+<div class="container">
+<h1>Bright Spots</h1>
+<div class="row"> 
+<div class="span3"> 
+<header class="number"> <span>!</span>
+</header> 
+
+    {% for post in site.posts %}
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p><strong>{{ post.date | date_to_string }}</strong><br />{{ post.excerpt }}</p>
+    {% endfor %}
+    </div>
+    
+		<div class="offset1 span3"> 
+			<header class="number"> <span>!</span> </header> 
+				<h2>Good Food</h2>
+				<p></p>
+		</div> 
+					
+		<div class="offset1 span3"> 
+		   <header class="number"> <span>!</span> </header> 
+				<h2>Good Blog</h2> 
+				<p></p>
+    </div>
+
+</div>    
+
+</div>
+</div>
+
+</div>
