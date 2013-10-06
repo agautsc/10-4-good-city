@@ -2,14 +2,3 @@ name: 10-4 Good City
 markdown: redcarpet
 pygments: true
 baseurl: /10-4-good-city
-
-prose: 
- metadata:
-  _posts:
-   - name: "layout"
-    field:
-     element: "select"
-      defaultText: "Select a Layout"
-       options:
-        - value: "default"
-        - value: "page"
