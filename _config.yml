@@ -9,8 +9,8 @@ prose:
      field:
        element: "multiselect"
        label: "Add Tags"
-       placeholder: "Choose tages"
-       otions: 
+       placeholder: "Choose tags"
+       options: 
         - name: "Techonology"
           value: "techonology"
         - name: "Transportation"
