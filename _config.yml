@@ -5,6 +5,16 @@ baseurl: /10-4-good-city
 prose:
  metadata:
   _posts:
+   - name: "layout"
+     field:
+       element: "select"
+       label: "Select layout"
+       placeholder: "Layout"
+       options:
+         - name: "Post"
+           value: "post"
+         - name: "Default"
+           value: "default"
    - name: "tags"
      field:
        element: "multiselect"
