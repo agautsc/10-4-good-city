@@ -2,3 +2,16 @@ name: 10-4 Good City
 markdown: redcarpet
 pygments: true
 baseurl: /10-4-good-city
+prose:
+ metadata:
+  _posts:
+   - name: "tags"
+     field:
+       element: "multiselect"
+       label: "Add Tags"
+       placeholder: "Choose tages"
+       otions: 
+        - name: "Techonology"
+          value: "techonology"
+        - name: "Transportation"
+          value: "transporation"
