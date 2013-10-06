@@ -3,7 +3,6 @@ markdown: redcarpet
 pygments: true
 baseurl: /10-4-good-city
 prose: 
- siteurl: 'http://agautsc.github.io/10-4-good-city'
  metadata:
   _posts:
    - name: "layout"
