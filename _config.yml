@@ -1,6 +1,7 @@
 name: 10-4 Good City
 markdown: redcarpet
 pygments: true
+siteurl: "http://agautsc.github.io/10-4-good-city/"
 baseurl: /10-4-good-city
 prose:
  metadata:
