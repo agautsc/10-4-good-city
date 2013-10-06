@@ -2,14 +2,26 @@ name: 10-4 Good City
 markdown: redcarpet
 pygments: true
 baseurl: /10-4-good-city
-prose: 
+prose:
  metadata:
   _posts:
    - name: "layout"
-    field:
-     element: "select"
-      defaultText: "Select a Layout"
+     field:
+       element: "select"
+       label: "Select layout"
+       placeholder: "Layout"
        options:
-        - value: "default"
-        - value: "page"
-            
+         - name: "Post"
+           value: "post"
+         - name: "Default"
+           value: "default"
+   - name: "tags"
+     field:
+       element: "multiselect"
+       label: "Add Tags"
+       placeholder: "Choose tags"
+       options: 
+        - name: "Techonology"
+          value: "techonology"
+        - name: "Transportation"
+          value: "transporation"
