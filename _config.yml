@@ -8,7 +8,7 @@ prose:
    - name: "published"
      field:
        element: "select"
-       label: ""
+       label: "Published"
        placeholder: "Published"
        options:
         - name: "True"
