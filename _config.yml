@@ -5,6 +5,16 @@ baseurl: /10-4-good-city
 prose:
  metadata:
   _posts:
+   - name: "published"
+     field:
+       element: "select"
+       label: ""
+       placeholder: "Published"
+       options:
+        - name: "True"
+          value: "true"
+        - name: "False"
+          value: "false"
    - name: "layout"
      field:
        element: "select"
